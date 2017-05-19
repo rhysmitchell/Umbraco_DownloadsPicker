@@ -1,0 +1,14 @@
+﻿{
+"gridEditors": [
+    {
+        "name": "Download Picker",
+        "alias": "DownloadPicker",
+        "view": "/App_Plugins/DownloadPicker/Editors/Views/DownloadPicker.html",
+        "render": "/App_Plugins/DownloadPicker/Editors/Render/DownloadPicker.cshtml",
+        "icon": "icon-download-alt"
+    }
+  ],
+		javascript: [
+			"~/App_Plugins/DownloadPicker/Editors/Controllers/DownloadPicker.Controllers.js"
+		]
+}
