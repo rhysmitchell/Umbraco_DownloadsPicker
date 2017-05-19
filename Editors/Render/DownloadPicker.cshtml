@@ -12,7 +12,7 @@
     IEnumerable<IPublishedContent> downloads = Umbraco.Media(ids.ToArray());
 
     <div class="sidebar-section">
-        <h4 class="also-title">@Umbraco.GetDictionaryValue("Downloads")</h4>
+        <h4 class="also-title">Downloads</h4>
         <div class="list-group">
             @if (downloads.Any())
                 {
